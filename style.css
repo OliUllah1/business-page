@@ -26,7 +26,7 @@
     background-color: #ffff;
 }
 .navber-top{
-    max-width: 1140px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -57,10 +57,10 @@
 
 /* main-navber style start */
 .main-navber{
-    max-width: 1140px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 18px;
     align-items: center;
 }
@@ -107,7 +107,7 @@
     background-repeat: no-repeat;
 }
 .banner-info{
-    max-width: 1140px;
+    max-width: 1280px;
     margin: 0 auto;
     padding-top: 150px;
     color: #ffff;
@@ -124,4 +124,19 @@
     font-weight: 300;
     margin-bottom: 25px;
 
+}
+/* banner section style end */
+/* header section end */
+
+/* mainbody style start */
+.main-body{
+    width: 100px;
+    color: #ffff;
+}
+.intoduction{
+    display: flex;
+    gap: 30px;
+    margin: 1280px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
