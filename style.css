@@ -3,8 +3,11 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --primary--color: #98cb2b;
+}
 .primary-color{
-    color: #98cb2b;
+    color: var(--primary--color);
 }
 
 .header{
@@ -40,7 +43,7 @@
     color: #9a9c9ee1;
 }
 .nav-social-media :hover{
-    color: #98cb2b;
+    color: var(--primary--color);
 }
 .nav-contact-info{
     display: flex;
@@ -50,7 +53,7 @@
     font-size: 12px;
 }
 .nav-contact-info i{
-    color: #98cb2b;
+    color: var(--primary--color);
     margin: 0 10px;
 }
 /* nav-top site style end */
@@ -81,13 +84,13 @@
     color: #0a0808f1;
 }
 .list-item :hover{
-    color: #98cb2b;
+    color: var(--primary--color);
 }
 .primary-btn{
     font-size: 15px;
     font-weight: 600;
     color: #1c393d;
-    background-color: #98cb2b;
+    background-color: var(--primary--color);
     padding: 12px 25px;
     border: 0;
     border-radius: 50px;
@@ -133,13 +136,15 @@
     width: 100%;
     background-color: #ffff;
 }
+
+/* intoduction section style start */
 .intoduction{
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
     padding-top: 100px;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .intoduction-images img{
     width: 600px;
@@ -172,4 +177,44 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
+}
+.intoduction-details h4{
+    color: #1c393d;
+    word-spacing: 1em;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.intoduction-details h1{
+    color: var(--primary--color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.intoduction-details p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #312f2f;
+    margin-bottom: 20px;
+}
+.intoduction-card{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.card{
+    padding: 22px;
+    gap: 10px;
+    border: 1px solid #98cb2b;
+    border-radius: 5px;
+}
+.card-number{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary--color);
+}
+.card-detail{
+    color: #1c393d;
 }
